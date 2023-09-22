@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 import matplotlib as plt
 # %matplotlib inline
 import warnings
@@ -11,7 +10,7 @@ import time
 
 
 #load the model
-mod = pickle.load(open('randomForest_model.pkl  ', 'rb'))
+mod = pickle.load(open('randomForest_model.pkl', 'rb'))
 
 #to add picture from local computer
 import base64
